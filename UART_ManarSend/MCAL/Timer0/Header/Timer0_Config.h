@@ -2,7 +2,7 @@
  * Timer0_Config.h
  *
  *  Created on: Aug 23, 2022
- *      Author: manar
+ *      Author: Manar
  */
 
 #ifndef MCAL_TIMER0_HEADER_TIMER0_CONFIG_H_

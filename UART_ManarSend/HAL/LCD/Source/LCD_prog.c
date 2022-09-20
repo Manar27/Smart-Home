@@ -13,7 +13,6 @@
 #include "../Header/LCD_interface.h"
 #include "../Header/LCD_Config.h"
 
-#include <stdio.h>
 #include <util/delay.h>
 
 void LCD_VoidSendCommand(u8 Local_command)

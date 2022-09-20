@@ -1,5 +1,5 @@
 /*
- * Bit_math.h
+ * KPD_Prog.c
  *
  *  Created on: Aug 22, 2022
  *      Author: Manar
@@ -91,7 +91,6 @@ u8 Keypad_4x4_adjustKeyNumber (u8 button_number)
 {
 	switch (button_number)
 	{
-				//7
 	case 1:		return 'T';
 				break;
 	case 2:		return 8;
@@ -100,13 +99,10 @@ u8 Keypad_4x4_adjustKeyNumber (u8 button_number)
 				break;
 	case 4:		return '/';
 				break;
-				//4
 	case 5:		return 'L';
 				break;
-				//5
 	case 6:		return 'O';
 				break;
-				//6
 	case 7:		return 'F';
 				break;
 	case 8:		return '*';

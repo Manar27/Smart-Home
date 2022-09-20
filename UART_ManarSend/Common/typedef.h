@@ -2,7 +2,7 @@
  * typedef.h
  *
  *  Created on: Aug 8, 2022
- *      Author: medoh
+ *      Author: Manar
  */
 
 #ifndef COMMON_TYPEDEF_H_

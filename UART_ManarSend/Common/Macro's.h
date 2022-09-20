@@ -2,7 +2,7 @@
  * Macro's.h
  *
  *  Created on: Aug 8, 2022
- *      Author: medoh
+ *      Author: Manar
  */
 
 #ifndef COMMON_MACRO_S_H_

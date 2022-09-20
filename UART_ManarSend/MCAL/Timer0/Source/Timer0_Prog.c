@@ -2,7 +2,7 @@
  * Timer0_Prog.c
  *
  *  Created on: Aug 23, 2022
- *      Author: manar
+ *      Author: Manar
  */
 
 #include "../../../Common/Bit_math.h"

@@ -1,12 +1,12 @@
 /*
- * UART_int.h
+ * UART_Interface.h
  *
- *  Created on: Sep 9, 2022
- *      Author: Dell
+ *  Created on: Sep 5, 2022
+ *      Author: Manar
  */
 
-#ifndef MCAL_UART_UART_INT_H_
-#define MCAL_UART_UART_INT_H_
+#ifndef MCAL_UART_UART_INTERFACE_H_
+#define MCAL_UART_UART_INTERFACE_H_
 
 
 // CHECK ERROR STATUS //
@@ -76,13 +76,18 @@ typedef struct
 #define UART_u16_BAUD_RATE_1M                     0
 //*******************************************************************************************************************************
 
-UART_tenuErrorStatus  UART_enuInit(UART_tstrConfiguration* Add_pstrConfigue);
+UART_tenuErrorStatus UART_enuInit (UART_tstrConfiguration* Add_pstrConfigue);
 
-UART_tenuErrorStatus  UART_enuInitRXInterrupt(UART_tstrConfiguration* Add_pstrConfigue);
+UART_tenuErrorStatus UART_enuInitRXInterrupt (UART_tstrConfiguration* Add_pstrConfigue);
 
-UART_tenuErrorStatus  UART_enuTransmite(u16 Copy_pu16Data);
+UART_tenuErrorStatus UART_enuTransmite (u16 Copy_pu16Data);
 
-UART_tenuErrorStatus  UART_enuReceive(u8* Add_pu16Data);
+UART_tenuErrorStatus UART_enuReceive (u8* Add_pu8Data);
+
+void UART_InterruptReceive(u8* Add_pu8Data);
+
 void UART_CallBackFunctionRX(void (*PTF)(void));
+
 void __vector_13(void)		__attribute__((signal));
-#endif /* MCAL_UART_UART_INT_H_ */
+
+#endif /* MCAL_UART_UART_INTERFACE_H_ */

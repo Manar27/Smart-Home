@@ -2,7 +2,7 @@
  * GIE_interface.h
  *
  *  Created on: Aug 20, 2022
- *      Author: manar
+ *      Author: Manar
  */
 
 #ifndef MCAL_GIE_HEADER_GIE_INTERFACE_H_

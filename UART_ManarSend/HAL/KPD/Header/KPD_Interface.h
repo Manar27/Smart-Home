@@ -1,5 +1,5 @@
 /*
- * Bit_math.h
+ * KPD_Interface.h
  *
  *  Created on: Aug 22, 2022
  *      Author: Manar
@@ -9,4 +9,5 @@
 #define HAL_KPD_HEADER_KPD_INTERFACE_H_
 
 u8 Keypad_GetPressedKey(void);
-#endif
+
+#endif /*HAL_KPD_HEADER_KPD_INTERFACE_H_*/

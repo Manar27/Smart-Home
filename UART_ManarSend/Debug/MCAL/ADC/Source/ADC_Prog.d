@@ -10,7 +10,6 @@ MCAL/ADC/Source/ADC_Prog.o MCAL/ADC/Source/ADC_Prog.o:  \
   ../MCAL/ADC/Source/../../DIO/Header/../Header/DIO_Private.h \
   ../MCAL/ADC/Source/../Header/ADC_Register.h \
   ../MCAL/ADC/Source/../Header/ADC_Private.h \
-  ../MCAL/ADC/Source/../Header/ADC_Config.h \
   ../MCAL/ADC/Source/../Header/ADC_interface.h \
   ../MCAL/ADC/Source/../Header/../Header/ADC_Register.h \
   ../MCAL/ADC/Source/../Header/../Header/ADC_Private.h
@@ -34,8 +33,6 @@ MCAL/ADC/Source/ADC_Prog.o MCAL/ADC/Source/ADC_Prog.o:  \
 ../MCAL/ADC/Source/../Header/ADC_Register.h:
 
 ../MCAL/ADC/Source/../Header/ADC_Private.h:
-
-../MCAL/ADC/Source/../Header/ADC_Config.h:
 
 ../MCAL/ADC/Source/../Header/ADC_interface.h:
 

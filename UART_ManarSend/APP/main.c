@@ -1,9 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 12, 2022
+ *      Author: Manar
+ */
 #include "../Common/Bit_math.h"
 #include "../Common/Macro's.h"
 #include "../Common/typedef.h"
 
 #include "../MCAL/DIO/Header/DIO_interface.h"
-#include "../MCAL/UART/Header/UART_int.h"
+#include "../MCAL/UART/Header/UART_Interface.h"
 #include "../HAL/LCD/Header/LCD_interface.h"
 #include "../HAL/KPD/Header/KPD_Interface.h"
 
@@ -50,6 +56,6 @@ void main (void)
 		LCD_VoidSendCommand(LCD_ClearDisplay);
 		_delay_ms(2);
 		LCD_VoidSendChar(Key_Value);
-		_delay_ms(500);
+		_delay_ms(250);
 	}
 }

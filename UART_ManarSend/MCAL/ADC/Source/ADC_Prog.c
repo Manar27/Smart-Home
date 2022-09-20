@@ -11,7 +11,6 @@
 #include "../../DIO/Header/DIO_interface.h"
 #include "../Header/ADC_Register.h"
 #include "../Header/ADC_Private.h"
-#include "../Header/ADC_Config.h"
 #include "../Header/ADC_interface.h"
 
 void ADC_VoidInitPolling	(void)

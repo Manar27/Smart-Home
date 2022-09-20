@@ -2,7 +2,7 @@
  * Timer0_Interface.h
  *
  *  Created on: Aug 23, 2022
- *      Author: manar
+ *      Author: Manar
  */
 
 #ifndef MCAL_TIMER0_HEADER_TIMER0_INTERFACE_H_
